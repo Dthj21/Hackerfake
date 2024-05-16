@@ -6,4 +6,4 @@ WORKDIR /hackerfake
 COPY requirements.txt /hackerfake/
 RUN pip install -r requirements.txt
 COPY . /hackerfake/
-CMD python manage.py runserver 0.0.0.0:80
+CMD python manage.py runserver 0.0.0.0:8080
